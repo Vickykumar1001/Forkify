@@ -1,0 +1,23 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Get recepies for you fav food",
+  "default": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build --no-minify index.html --dist-dir ./dist"
+  },
+  "author": "Vicky",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.35.1",
+    "fracty": "^1.0.11",
+    "parcel": "^2.0.0-beta.1",
+    "regenerator-runtime": "^0.14.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.11.0",
+    "sass": "^1.70.0",
+    "url": "^0.11.3"
+  }
+}
